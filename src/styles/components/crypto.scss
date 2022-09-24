@@ -1,0 +1,14 @@
+div.dev{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: +100;
+    background-image: url("../assets/images/mock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 10%;
+}
+
+body{
+    height: 200vh;
+}

@@ -1,0 +1,43 @@
+/* ==========================================================================
+   COLORS / SETTINGS
+   ========================================================================== */
+
+:root {
+    // Couleur de base
+    --color-white: #fff;
+    --color-black: #000;
+    --color-neutre-pale:#81848D;
+    --color-neutre-foncee:#081946;
+
+    // Couleurs du projet
+    --color-fond-pale: #F5F4FA;
+    --color-fond-fonce: #23235E;
+
+    --color-objets-fondPale-couleur: #2625BF;
+    --color-objets-fondsFonces-couleurFoncee: #2824C0;
+    --color-objets-fonces-couleurPale: #8B38DD;
+
+    //Couleurs typo du projet
+    --Color-typo-fonce:#081946;
+    --Color-typo-pale:#3D424F;
+    --Color-typo-moyen:#BBC8EB;
+    --Color-typo-tresPale:#81848D;
+    --Color-typo-inversee-tresPale:#fff;
+    --Color-typo-inversee-pale:#BBC8EB;
+    --Color-typo-sousTitre:#2625BF;
+
+    //Couleurs contraste
+    --Color-contraste-pale:#FFC700;
+    --Color-contraste-foncee:#FF782D;
+
+    //Couleurs dégradés
+    /*--Color1-degrade-play: #FFC700;
+    --Color2-degrade-play:#FF782D;
+    --Color1-degrade-boutons: #1A21BC;
+    --Color2-degrade-boutons:#8B38DD;*/
+    --Color-degrade-bouton-fonce:linear-gradient(92.42deg, #4424BF 1.68%, #8236DA 98.61%);
+
+    --color-fail: #E11C1C;
+    --color-win: #2ECE32;
+
+}

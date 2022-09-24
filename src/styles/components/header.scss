@@ -1,0 +1,51 @@
+header{ // Etape 1
+    padding: 24px;
+    font-size: var(--font-size-h4);
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        gap:45px;
+    }
+}
+
+.header_nav{
+    font-weight: 500;
+    color: var(--Color-typo-tresPale);
+}
+.header_options{
+    font-weight: 500;
+    color: var(--color-neutre-foncee);
+    ul{
+        display: flex;
+        align-items: center;
+    }
+}
+
+.header_nav a:hover{
+    color: var(--color-neutre-foncee);
+    font-weight: 500;
+}
+
+@media (max-width: $breakpoint-md){
+    header{
+        .wrapper{
+            flex-direction: column;
+        }
+        ul{
+            gap: 1rem;
+        }
+        .header_options{
+            ul{
+                gap: 0;
+            }
+            .button{
+                display: none;
+            }
+        }
+    }
+}
